@@ -1,4 +1,4 @@
-name: Tests with Django v3-v4
+name: Tests with Django v4-v5
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
           - python-version: "3.10"
             toxenv: py310-django{3.2,4.0,4.1}
           - python-version: "3.11"
-            toxenv: py311-django{3.2,4.0,4.1,4.2}
+            toxenv: py311-django{4.0,4.1,4.2,5.0}
 
     # service containers to run with
     services:
