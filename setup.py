@@ -55,9 +55,6 @@ setup(
         'Framework :: Django :: 4.0',
         'Framework :: Django :: 4.1',
         'Framework :: Django :: 4.2',
-        'Framework :: Django :: 5.0',
-
-        'Framework :: Celery',
 
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)',
