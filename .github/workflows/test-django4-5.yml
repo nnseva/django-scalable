@@ -23,14 +23,14 @@ jobs:
           - python-version: "3.10"
             toxenv: py310-django{3.2,4.0,4.1}
           - python-version: "3.11"
-            toxenv: py311-django{3.2,4.0,4.1}
+            toxenv: py311-django{3.2,4.0,4.1,4.2}
 
     # service containers to run with
     services:
       # label used to access the service container
       postgres:
         # Docker Hub image
-        image: postgres:11
+        image: postgres:12
         # service environment variables
         # `POSTGRES_HOST` is `postgres`
         env:
