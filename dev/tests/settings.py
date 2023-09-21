@@ -71,7 +71,7 @@ TEMPLATES = [
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.environ.get('DATABASE_NAME', 'test'),
         'USER': os.environ.get('DATABASE_USER', 'test'),
         'PASSWORD': os.environ.get('DATABASE_PASSWORD', 'test'),
