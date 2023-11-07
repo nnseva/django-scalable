@@ -181,7 +181,7 @@ updates fields `acquired_by` and `acquired_at` of filtered instances to the null
 
 ### Scalable.reacquire(acquired_by, queryset=None, acquired_at=None)
 
-Reacquires a set of model instances, just updating the `acquired_by` to the passed value, or to the
+Reacquires a set of model instances, just updating the `acquired_at` to the passed value, or to the
 `timezone.now()` value by default.
 
 Present parameters and return value have same meaning as for the `acquire()` call.
